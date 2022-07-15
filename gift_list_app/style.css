@@ -1,0 +1,150 @@
+html, body {
+	margin: 0;
+}
+
+h2 {
+	font-family: sans-serif;
+	color: #545454;
+	width: max-content;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+input {
+	border: 2px solid #545454;
+	border-radius: 2px;
+	height: 25px;
+	width: 25%;
+	margin-left: 37%;
+	display: inline-block;
+}
+
+label {
+	font-family: sans-serif;
+	color: #333;
+	display: block;
+	width: max-content;
+	font-size: 1.1em;
+	margin-left: 37%;
+}
+
+.results {
+	font-family: sans-serif;
+	font-size: 1.1em;
+	margin-left: 25px;
+	width: max-content;
+	display: inline;
+}
+
+#closeit {
+	color: blue;
+}
+
+#addInput {
+	margin-left: 34%;
+}
+
+#submitbtn {
+	width: 80px;
+	height: 30px;
+	margin: 0 auto;
+	background-color: #90ee90;
+	transition: ease-in-out .3s;
+	display: inline-block;
+}
+
+#submitbtn:hover {
+	background-color: #d08e8e;
+}
+
+#gifts-table {
+	font-family: sans-serif;
+	margin-right: 0px;
+	width: max-content;
+}
+
+#display-gift-data {
+	width: max-content;
+	display: inline;
+	margin-left: 25px;
+	float: left;
+}
+
+#action-container, #option-container {
+	display: inline;
+	width: max-content;
+	margin-left: 25px;
+}
+
+th {
+	text-align: left;
+}
+
+td {
+	padding: 5px;
+}
+
+#gift-head {
+	padding-left: 30px;
+}
+
+.gift-row {
+	padding-left: 30px;
+}
+
+#action-input, #recipient-input, #gift-input {
+	width: 200px;
+	display: inline;
+	margin-left: 2px;
+	margin-bottom: 5px;
+}
+
+#editbtn {
+	width: 60px;
+	height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #90ee90;
+	color: black;
+	margin-left: 2px;
+	transition: ease-in-out .2s;
+}
+
+#editbtn:hover {
+	background-color: #d08e8e;
+	color: white;
+}
+
+#deletebtn {
+	width: 60px;
+	height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: red;
+	color: white;
+	margin-left: 2px;
+	transition: ease-in-out .2s;
+}
+
+#deletebtn:hover {
+	border: 2px solid red;
+	background-color: #333;
+	color: red;
+}
+
+#closebtn {
+	width: 30px;
+	height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	background-color: #d08e8e;
+	margin-left: 2px;
+	transition: ease-in-out .2s;
+}
+
+#closebtn:hover {
+	background-color: #90ee90;
+	color: black;
+}

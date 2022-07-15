@@ -1,0 +1,9 @@
+CREATE DATABASE gift_list;
+
+use gift_list;
+
+CREATE TABLE gift_list (
+	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	recipient VARCHAR(50) NOT NULL,
+	gift VARCHAR(100) NOT NULL
+);

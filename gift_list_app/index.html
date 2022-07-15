@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gift List</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h2 id="search-heading">Search Recipients</h2>
+
+	<input type="text" name="search" id="search" placeholder="Search for a recipient">
+
+	<div id="search-result"></div>
+
+	<hr></hr>
+
+	<h2 id="add-heading">Add Recipient</h2>
+
+	<form id="add-recipient-form" action="backend.php" method="POST">
+		<label for="recipient">Recipient:</label>
+		<input id="add-recipient-input" type="text" name="recipient" required>
+		<label for="gift">Gift:</label>
+		<input id="add-gift-input" type="text" name="gift" required>
+		<input type="submit" id="submitbtn" value="Submit">
+	</form>
+
+	<h3 id="recipient-result"></h3>
+
+	<div id="option-container"></div>
+
+	<div id="display-gift-data">
+		<table id="gifts-table">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Recipient</th>
+					<th id="gift-head">Gift</th>
+				<tr>
+			</thead>
+			<tbody id="show-gifts">
+				<!-- PHP populates these rows -->
+			</tbody>
+		</table>
+	</div>
+
+	<script src="main.js"></script>
+
+</body>
+</html>
